@@ -13,7 +13,6 @@
 # The email n.john.smith@gmail.com is a valid email
 # The email 87victory@hotmail.com is a valid email
 # The email !#mary-=@msca.net is invalid
-from modulo import datos
 import re
 regex = r".+@.+com$"
 emails = ['n.john.smith@gmail.com', '87victory@hotmail.com', '!#mary-=@msca.net']

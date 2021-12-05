@@ -5,7 +5,7 @@
 # - Archivo siempre termina con ".txt" .
 from modulo import datos
 import re
-path = './src/re/short_tweets.csv'
+path = './re/short_tweets.csv'
 analisis_sentimientos = datos.read_pandas(path,780,782)
 regex = r"^[aeiouAEIOU]{2,3}[A-Za-z]+.txt"
 for tweet in analisis_sentimientos:
